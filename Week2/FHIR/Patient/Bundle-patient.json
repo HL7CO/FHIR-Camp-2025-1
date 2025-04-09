@@ -3,15 +3,8 @@
 	"id": "2709074b-145b-4dc6-bc5e-85ad34625e73",
 	"type": "transaction",
 	"total": 12,
-	"link": [
-		{
-			"relation": "self",
-			"url": "https://hapi.fhir.org/baseR4/Patient?_sort=given&name=Ramone"
-		}
-	],
 	"entry": [
 		{
-			"fullUrl": "https://hapi.fhir.org/baseR4/Patient/d74b2a61-5559-4c5f-b3c7-2c055f25de40",
 			"resource": {
 				"resourceType": "Patient",
 				"id": "d74b2a61-5559-4c5f-b3c7-2c055f25de40",
@@ -139,8 +132,8 @@
 				"deceasedDateTime": "1988-08-09"
 			},
 			"request": {
-				"method": "POST",
-				"url": "Patient"
+				"method": "PUT",
+				"url": "Patient/92cc14cb-75b1-46ae-9a0e-29074b03c136"
 			}
 		},
 		{
