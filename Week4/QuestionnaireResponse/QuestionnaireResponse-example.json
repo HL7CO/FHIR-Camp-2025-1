@@ -1,0 +1,84 @@
+{
+    "resourceType": "QuestionnaireResponse",
+    "item": [
+        {
+            "linkId": "Question 1",
+            "text": "Have you ever been found to have high blood glucose (e.g. in a health examination, during an illness, during pregnancy)?",
+            "answer": [
+                {
+                    "valueBoolean": true
+                }
+            ]
+        },
+        {
+            "linkId": "Question 2",
+            "text": "Peso del paciente",
+            "answer": [
+                {
+                    "valueQuantity": {
+                            "value": 80,
+                            "unit": "kg"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "Question 3",
+            "text": "Estatura del paciente",
+            "answer": [
+                {
+                    "valueReference": {
+                        "reference": "Observation/ac59f9e5-b7d3-4ae0-8156-6d6ec441c18d"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "Question 4",
+            "text": "What was the date of the last test?",
+            "answer": [
+                {
+                    "valueDate": "2020-01-01"
+                }
+            ]
+        },
+        {
+            "linkId": "Question 5",
+            "text": "What was your weight at that time?",
+            "answer": [
+                {
+                    "valueReference": {
+                        "reference": "Observation/7f186dd5-36ef-4abd-a930-f80074a947c6"
+                    }
+                }
+            ]
+        },
+        {
+            "linkId": "Question 7",
+            "text": "What was your waist circumference at that time?",
+            "answer": [
+                {
+                    "valueDecimal": 90
+                }
+            ]
+        },
+        {
+            "linkId": "Question 8",
+            "text": "What was your hip circumference at that time?",
+            "answer": [
+                {
+                    "valueDecimal": 100
+                }
+            ]
+        },
+        {
+            "linkId": "Question 9",
+            "text": "What was your blood pressure at that time?",
+            "answer": [
+                {
+                    "valueString": "120/80"
+                }
+            ]
+        }
+    ]
+}
