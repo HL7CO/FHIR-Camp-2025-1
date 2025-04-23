@@ -70,7 +70,8 @@
             "system": "http://loinc.org",
             "display": "Leukocytes [#/volume] in Blood by Automated count"
           }
-        ]
+        ],
+        "text": "Leucocitos"
       }
     },
     {
@@ -101,7 +102,8 @@
             "system": "http://loinc.org",
             "display": "Erythrocytes [#/volume] in Blood by Automated count"
           }
-        ]
+        ],
+        "text": "Eritrocitos"
       }
     },
     {

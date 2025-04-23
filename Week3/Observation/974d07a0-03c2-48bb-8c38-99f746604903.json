@@ -25,7 +25,8 @@
                 "code": "29463-7",
                 "display": "Body weight"
             }
-		]
+		],
+		"text": "Peso del paciente"
 	},
 	"subject": {
 		"reference": "Patient/47c02cdb-5163-4ee3-930d-4e22f5954dfa"
